@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Length Converter</title>
+    <script
+      src="https://kit.fontawesome.com/4731a3ee21.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <div class="title_container">
+        <h2>Length Converter</h2>
+      </div>
+
+      <div class="amount_container">
+        <label for="amount">Enter Amount</label>
+        <input type="number" name="amount" id="amount" />
+      </div>
+
+      <div class="unit_container">
+        <div class="left">
+          <p>From</p>
+          <div class="select_container">
+            <select name="from" id="from">
+              <option value="centimeter">Centimeter</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="middle">
+          <i class="fas fa-cog fa-spin" style="font-size: 24px"></i>
+        </div>
+
+        <div class="right">
+          <p>To</p>
+          <div class="select_container">
+            <select name="to" id="to">
+              <option value="centimeter">Centimeter</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="formular_container">
+        <span class="title">formular</span>
+        <span class="content">Your Calculations</span>
+      </div>
+
+      <div class="result_container">
+        <label for="result">Result</label>
+        <input type="text" name="result" id="result" />
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #284f68, rgb(84, 126, 135));
+}
+
+main {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.4rem;
+}
+
+.title_container {
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+}
+
+label {
+  font-weight: bold;
+}
+
+.amount_container {
+  margin-bottom: 1.3rem;
+}
+
+.amount_container > input[type="number"] {
+  width: 100%;
+  border: 1px solid black;
+  padding: 0.6rem;
+  margin-top: 0.5rem;
+  outline: 0;
+}
+
+.unit_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.select_container > select {
+  border: 1px solid black;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.middle > i {
+  margin-top: 150%;
+}
+
+.formular_container {
+  margin-bottom: 1.4rem;
+}
+
+.formular_container > .title {
+  background-color: #233854;
+  color: white;
+  font-size: 0.8rem;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.formular_container > .content {
+  font-size: 0.8rem;
+}
+
+.result_container > input[type="text"] {
+  border: 1px solid black;
+  width: 100%;
+  padding: 0.6em;
+  margin-top: 0.5rem;
+  outline: 0;
+}
